@@ -1,19 +1,31 @@
 import styled from 'styled-components'
 
 export const NotFoundArea = styled.div`
-background-color: #BA55D3;
+background-color: #ffffff;
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    align-item: center;
+    align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
+    height: 400px;
 
     h2 {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 200px;
+    }
+
+    .botao {
+        a {
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 1px solid #000000;
+            flex-direction: column;
+        }
     }
 }
 `

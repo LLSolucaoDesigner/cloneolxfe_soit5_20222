@@ -7,7 +7,10 @@ const Page = () => {
         <NotFoundArea>
             <div className="container">
                 <h2>Página não encontrada</h2>
-                <Link to='/'>Voltar para a Home</Link>
+                <div className="botao">
+                    <Link to='/'>Voltar para a Home</Link>
+                </div>
+
             </div>
         </NotFoundArea>
     )
